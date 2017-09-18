@@ -38,9 +38,7 @@ paper2:
    hid:
    - 305
    title:  Big Data applied to zoning and city planning.
-   abstract: Developing city planning and zoning policies has a large impact on natural resources management and socio economic indicators. To make informed decisions, the local governments require to use important amounts of data to make informed decisions.
-
-This paper explores the possibilities for zoning and city planning provided by the new big data technologies
+   abstract: Developing city planning and zoning policies has a large impact on natural resources management and socio economic indicators. To make informed decisions, the local governments require to use important amounts of data to make informed decisions. This paper explores the possibilities for zoning and city planning provided by the new big data technologies
    url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
    type: word
    status: in progress
