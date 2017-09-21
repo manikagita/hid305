@@ -5,6 +5,7 @@
 # Theory
 
 * 08/22/17 - 08/23/17 Read and watched all videso in the Theory Introduction section
+* 09/17/17 - 09/23/17 Finish "Overview of data science
 
 # Practice
 
@@ -14,7 +15,7 @@
 * 09/10/17 Setup Raspberry PI and started working on alternative ways to access it.
 * 09/11/17 Accessed Raspberry PI via SSH (terminal only) and RealVNC from Linux.
 * 09/12/17 Successfully completed first excersize with Raspberry PI: turning on/off a led using python.
-
+* 09/17/17 - 09/23/17 Worked on python excersizes and put together the robot car chasis.
 
 
 # Writing
@@ -23,4 +24,4 @@
 * 08/26/17 Installed and Learned JabRef
 * 09/05/17 Started working on document for with Mani Kaguita.
 * 09/13/17 Started adding bibliography to JabRef
-
+* 09/20/17 Moved what we have of Paper1 into a tex document and successfully compiled it along the bibliography
