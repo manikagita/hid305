@@ -5,7 +5,7 @@
 # Theory
 
 * 08/22/17 - 08/23/17 Read and watched all videso in the Theory Introduction section
-* 09/17/17 - 09/23/17 Finish "Overview of data science
+* 09/17/17 - 09/23/17 Finish "Overview of data science".
 
 # Practice
 
@@ -24,4 +24,6 @@
 * 08/26/17 Installed and Learned JabRef
 * 09/05/17 Started working on document for with Mani Kaguita.
 * 09/13/17 Started adding bibliography to JabRef
-* 09/20/17 Moved what we have of Paper1 into a tex document and successfully compiled it along the bibliography
+* 09/20/17 Moved what we have of Paper 1 into a tex document and successfully compiled it along the bibliography
+* 09/21/17 -  09/24/17 Kept working on Paper 1
+* 09/24/17 Started working on Paper 2 and uploaded bib and tex files to github 
