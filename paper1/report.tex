@@ -12,55 +12,167 @@
 \pagestyle{plain} % removes running headers
 
 \begin{document}
-\title{My great Big Dat Paper}
+\title{Big Data Analytics for Municipal Waste Management}
 
-
-\author{Ben Trovato}
+\author{Andres Castro Benavides}
 \orcid{1234-5678-9012}
 \affiliation{%
-  \institution{Institute for Clarity in Documentation}
+  \institution{Indiana University}
+  \streetaddress{107 S. Indiana Avenue}
+  \city{Bloomington} 
+  \state{Indiana} 
+  \postcode{43017-6221}
+}
+\email{acastrob@iu.edu}
+
+\author{Mani Kumar Kagita}
+\affiliation{%
+  \institution{Indiana University}
   \streetaddress{P.O. Box 1212}
   \city{Dublin} 
   \state{Ohio} 
   \postcode{43017-6221}
 }
-\email{trovato@corporation.com}
-
+\email{mkagita@iu.edu}
 % The default list of authors is too long for headers}
 \renewcommand{\shortauthors}{B. Trovato et al.}
 
 
 \begin{abstract}
-This paper provides a sample of a \LaTeX\ document which conforms,
-somewhat loosely, to the formatting guidelines for
-ACM SIG Proceedings.
+As waste management becomes a greater concern for cities and municipalities around the world, big data analysis has the potential to not only help assess the current waste management strategies but also provide information that can be used to optimize the systems used in various institutions, local government, companies, etc.
+
 \end{abstract}
 
-\keywords{i523}
+\keywords{Waste Management, Big Data, Local Government}
+
 
 
 \maketitle
 
+
 \section{Introduction}
 
-The \textit{proceedings} are the records of a
-conference. ACM seeks to give these
-conference by-products a uniform, high-quality appearance.  To do
-this, ACM has some rigid requirements for the format of the
-proceedings documents: there is a specified format (balanced double
-columns), a specified set of fonts (Arial or Helvetica and Times
-Roman) in certain specified sizes, a specified live area, centered on
-the page, specified size of margins, specified column width and gutter
-size \cite{editor00}.
+
+In the current fast paced society, as production of goods increases and new distribution chains constantly change, the production of disposed materials and goods, from now on called solid waste, has increased over the past ten years, going from around 0.64 kg per person per day of solid waste to approximately 1.2 kg per person per day,  and it is expected to increase to about 1.42 kg.
+~\cite{hoornweg2012} this causes the problem of waste management to increase in complexity and magnitude.
+
+Because of this, the different local governments and organizations have seen the need to develop regulations to control the different ¿features, segments, processes? Of the action of disposal. From the moment the material is discarded until the moment the material reaches it’s ultimate destination: recycling plant or landfill. This set of systematic regulations is called solid waste management ~\cite{akbarpour2016}
+
+%maybe we should talk about big data here as well…
+\section{ Waste Management}
+%a) what is the problem
+
+The amounts of disposed material and it’s composition vary depending on the country, place and activity that is performed at the site where the waste is generated. ~\cite{chandrappa2012} 
+There are also important differences between the general composition of the waste generated in rural area and what is produced in urban area, the waste produced in the later is highlyu influenced by the culture and the practices of our modern society.~\cite{chandrappa2012} p47 to 63
+
+For this reason, every process related to waste management-transportation, storing and final disposition, among others- must be engineered and tailored to fit the specific needs of each case.
+
+In general, decisions can be classified as optimal, good, or fortuitous. ~\cite{akbarpour2016} and this can be applied to Waste Management.
+
+Having that Good decision-making is mostly based on experience, comparison of elements and trial and error, and that fortuitous decision-making have no scientific base; one must always try to solve the problem -in this case waste management related- with Optimal Decision making, that requires techniques and technologies provided by other fields. 
+ ~\cite{akbarpour2016}
+
+\section{ Big data and waste management}
+%b) why is big data involved
+By collecting and storing large volumes of  data related to types of waste, quantities, periodicity, and composition; usually from independent sources. Big data can be interpreted in a way that allows the different actors that intervene in Waste Management to make Optimal Decisions.~\cite{yenkar2014review}
+
+
+
+%we can add info about how it is collected and stored? Sources and uses? Integrated Waste management plans ordered by law in many countries?
+
+\subsection{Opportunities for Waste Management Optimization}
+%how can big data or analytics of big data help
+
+The process of solving a math program requires a large number of calculations and is, therefore, best performed by a computer program. ~\cite{akbarpour2016}
+
+
+\section{Opportunities for Waste Management Optimization}
+
+%what infrastructure/programs/systems exist for this
+
+
+
+
+\subsection{Statistics and Waste Management}
+
+There are many data analysis methods that are used when studying waste management, but the two most popular are PCA and PLS1. 
+~\cite{bohm2013}
+
+Lingo is a mathematical modeling language designed particularly for formulating and solving a wide variety of optimization problems including linear programing. Lingo optimization software uses branch and bound methods to solve problems of this type. ~\cite{akbarpour2016}
+
+\subsection{GIS Analytics}
+
+When it comes to Geographical Information Systems (From now on GIS) There are multiple software and hardware options in the market. From paid software like ArcGIS to Open and free software like GVSIG, there are solutions that can help interpret large data sets, apply statistics and algorithms of different kinds and display them in a way that make reference to a geographical space. %general knowledge? Should we get a citation for this?
+
+%In 2011, Faccio, Persona and Zanin [22] investigated the feasibility of communication between bins, collection vehicles and a central operator. The waste bins can be ﬁtted with a volumetric sensor, RFID and GPRS communication and can send information about their status. Using this real-time data, routes can be optimized in order to make optimal use of the vehicle’s cargo space. Waste containers that still have not reached a certain threshold to be emptied are skipped by, saving valuable travel time and distance. Also of importance, fewer waste collection vehicles were needed. A key ﬁnding wasthattheeconomicfeasibilityofprovidingasensornetwork to support waste management in this case, was estimated to a payback period of roughly three years.P141
+~/cite {shahrokni2014big}
+
+The second category of studies focuses on minimizing transportation of waste collection through optimal routing algorithms. For example Kim et al [18] use two methods to calculate an optimal set of routes, the ﬁrst being Solomon’s insertion algorithm, the second being a clustering algorithm. Their aim was to minimize the driven distance, as well as to balance the workload. At the same time, the constraint of legally prescribed lunch breaks (so called time-window problem) had to be satisﬁed. McLeod and Cherrett [19] suggestedarouteoptimizationforthreeareasandconnectedwaste companies in North Hampshire (UK). By applying simple rerouting, sharing of routes between the 3 areas and adding vehicle depots at the waste disposal sites, they estimated annual savings as large as 10,000 km for the studied routes (this covers one ﬁfth of all routes in North Hampshire). Another study performed by Wy, Kim and Kim [20] studied
+
+a routing algorithm for waste collection using roll-on/roll-off containers, again while factoring in the time windows. Buhrkal, Larsen and Ropke [21] were one of the ﬁrst to suggest the environmental importance of optimizing waste collection itineraries. They utilized an adaptive large neighborhood search algorithm, and a clustering method and their scope was residential waste collection. Depending on the computation time, using the actual collection points and lunch time windows, the savings amounted to 13 percent average. With larger time windows and better starting conditions, heuristics with a distance reduction of up to 45% could be achieved.
+
+~/cite {shahrokni2014big}
+
+
+
+
+
+
+Many data analysis methods are used when studying waste management, but the two most popular are PCA and PLS1. 
+~\cite{bohm2013}
+
+
+
+
+\section{Conclusions}
+
+There are different tools to optimize the different waste management practices  and to improve the information available for decision makers...
+
+
+
+\appendix
+
+
+Generated by bibtex from your \texttt{.bib} file.  Run latex, then
+bibtex, then latex twice (to resolve references) to create the
+\texttt{.bbl} file.  Insert that \texttt{.bbl} file into the
+\texttt{.tex} source file and comment out the command
+\texttt{{\char'134}thebibliography}.
+
+% This next section command marks the start of
+% Appendix B, and does not continue the present hierarchy
+
+\section{More Help for the Hardy}
+\appendix
+
+
+Generated by bibtex from your \texttt{.bib} file.  Run latex, then
+bibtex, then latex twice (to resolve references) to create the
+\texttt{.bbl} file.  Insert that \texttt{.bbl} file into the
+\texttt{.tex} source file and comment out the command
+\texttt{{\char'134}thebibliography}.
+
+% This next section command marks the start of
+% Appendix B, and does not continue the present hierarchy
 
 
 \begin{acks}
 
-  The authors would like to thank 
+  The authors would like to thank Dr. Yuhua Li for providing the
+  matlab code of the \textit{BEPS} method.
+
+  The authors would also like to thank the anonymous referees for
+  their valuable comments and helpful suggestions. The work is
+  supported by the \grantsponsor{GS501100001809}{National Natural
+    Science Foundation of
+    China}{http://dx.doi.org/10.13039/501100001809} under Grant
+  No.:~\grantnum{GS501100001809}{61273304}
+  and~\grantnum[http://www.nnsf.cn/youngscientsts]{GS501100001809}{Young
+    Scientsts' Support Program}.
 
 \end{acks}
 
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{report} 
+\bibliography{report1} 
 
 \end{document}
