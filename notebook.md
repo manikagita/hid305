@@ -27,3 +27,9 @@
 * 09/20/17 Moved what we have of Paper 1 into a tex document and successfully compiled it along the bibliography
 * 09/21/17 -  09/24/17 Kept working on Paper 1
 * 09/24/17 Started working on Paper 2 and uploaded bib and tex files to github 
+
+# Meetings
+
+* 09/11/2017 Meeting: Attended class meeting for online students
+* 09/18/2017 Meeting: Attended class meeting for online students
+* 09/25/2017 Meeting: Attended class meeting for online students
