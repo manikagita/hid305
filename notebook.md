@@ -33,3 +33,9 @@
 * 09/11/2017 Meeting: Attended class meeting for online students
 * 09/18/2017 Meeting: Attended class meeting for online students
 * 09/25/2017 Meeting: Attended class meeting for online students
+
+# Location
+
+* Address: Holland mi, 81 E 25th st
+* Latitude: 42.775121
+* Longitude: -86.103329 
