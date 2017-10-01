@@ -27,7 +27,7 @@ paper1:
        government, companies, etc.
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
    type: latex
-   status: in progress
+   status: 99%
    chapter: Government
 ```
    
