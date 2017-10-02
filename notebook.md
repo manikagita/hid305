@@ -37,6 +37,7 @@
 * 09/11/2017  - Meeting: Attended class meeting for online students
 * 09/18/2017  - Meeting: Attended class meeting for online students
 * 09/25/2017  - Meeting: Attended class meeting for online students learned the difference between "" and'' '' in LaTex
+* 10/02/2017  - Meeting: Attended class meeting for online students. Learned about the YAML readme Parser project.
 
 # Location
 
