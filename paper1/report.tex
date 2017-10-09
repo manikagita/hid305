@@ -1,7 +1,8 @@
 \documentclass[sigconf]{acmart}
 
 \usepackage{hyperref}
-
+\usepackage{graphicx}
+\graphicspath{ {images/} }
 \usepackage{endfloat}
 \renewcommand{\efloatseparator}{\mbox{}} % no new page between figures
 
@@ -65,7 +66,7 @@ Municipal Solid Waste (MSW), commonly known as garbage or trash, consists of ite
 
 The amounts of solid waste and its composition vary depending on the country, place, and activity performed at the site where the waste is generated ~\cite{chandrappa2012}. For this reason, every process related to waste management-transportation, storing and final disposition, among others- must be engineered and tailored to fit the specific needs of community, organization, or local institution.  The data collected for analysis will also be specific to the needs and realities of each individual entity, which is why waste management plans are not universal or easily applied from one community to another.  
 
-The ways of handling waste have also changed over the years, affecting the best ways to manage waste. According to EPA statistics from 2014, Americans have generated about 258 million tons of MSW of which more than 89 million tons is recycled and composted. The equivalent to a 34.6\% recycling rate compared to 6.4\% in 1960. Americans have also used the energy production process to combust approximately 33 million tons of waste,  while as much as 136 million tons of waste ended up in landfills during the same year. ~\cite{epa2014}.  Because of this, data on recyclable material, dividing waste and recyclable material, and where materials are sent or how they are disposed of has also become significant. Figures 1,2,3 and 4 ~\cite{EPA2014} represents MSW generation rates, recycling, composition rates and Total MSW generation between 1960 and 2014 ~\cite{EPA2014}.
+The ways of handling waste have also changed over the years, affecting the best ways to manage waste. According to EPA statistics from 2014, Americans have generated about 258 million tons of MSW of which more than 89 million tons is recycled and composted. The equivalent to a 34.6\% recycling rate compared to 6.4\% in 1960. Americans have also used the energy production process to combust approximately 33 million tons of waste,  while as much as 136 million tons of waste ended up in landfills during the same year. ~\cite{epa2014}.  Because of this, data on recyclable material, dividing waste and recyclable material, and where materials are sent or how they are disposed of has also become significant. Figures 1,2,3 and 4 ~\cite{epa2014} represents MSW generation rates, recycling, composition rates and Total MSW generation between 1960 and 2014 ~\cite{epa2014}.
 
 \begin{figure}[ht!]
   \includegraphics[width=0.5\textwidth]{fig1.png}
@@ -102,10 +103,10 @@ In Big Data, the expert in charge takes many data sets coming from diverse and d
 
 Characteristics (such as the large volume of data generated in waste management, how dynamically the data is generated, and the variety of formats in which the data comes) turn the task of producing knowledge an ideal task for Big Data.  Scientists can interpret the findings of Big Data  in a way that allows individuals and institutions involved in waste management, to make optimal decisions.~\cite{yenkar2014review}  
 
-\subsection{Solutions for effective Waste Management}
+\section{Solutions for effective Waste Management}
 %how can big data or analytics of big data help
 
-\section{ Examples of Big data and waste management}
+\subsection{ Examples of Big data and waste management}
 
 In Manchester, England, the Greater Manchester Waste Disposal Authority, England's most significant waste management institution, has started to use Big Data to better orchestrate the waste management services they provide. To get the most out of their Big Data approach, the Greater Manchester Waste Disposal Authority is working in collaboration with the research done by the University of Manchester. Together, they are creating environmentally sustainable solutions for Manchester, and are finding optimal solutions to the 1.1 million tonnes of waste that Manchester produces every year ~\cite{markvan2016}. 
 
@@ -114,6 +115,8 @@ Another example of a local government implementing Big Data Solutions is the cit
 Researchers in Ethiopia are combining socioeconomic data alongside geographic data in order to get a clearer understanding of the patterns of how household waste is being collected and distributed. This study helped local authorities to better manage waste practices in urban areas~\cite{markvan2016}. 
 
 A group of researchers from the University of Stockholm is using Big Data to identify how to optimize waste management routes in their city. By using a wide variety of data sets collected from various sources, roughly around half a million entries including trash bin locations, weights, and truck routes, researchers have developed waste generation maps of Stockholm. This research has helped reveal various inefficiencies in the current waste management system and will be integral in helping them improve their local waste management ~\cite{markvan2016}.
+Figure 5 ~\cite{shahrokni2014big}  represents heatmap of all waste aggregated per zip code in Stockholm.
+
 
 \begin{figure}[ht!]
   \includegraphics[width=0.5\textwidth]{stockholm.png}
@@ -121,7 +124,7 @@ A group of researchers from the University of Stockholm is using Big Data to ide
 \end{figure}
 
 \subsubsection{Vehicle Routing Problem}
-Vehicle route optimization is one of the primary concerns in waste management. It is termed as Vehicle Routing Problem (VRP) ~\cite{dantzig1959}.   While routes may be designed based on geography, merely looking at a map and designing what seems to be practical movement through the city, this is underestimating the extent of the factors involved.  There are multiple factors that either directly or indirectly affect waste collection that can also be analyzed and considered while designing routes. Common known factors that influence vehicle routing are the type of vehicle, vehicle capacity, number of collection stops, volume per capita and the route length. Figure 6 represents Vehicle Routing Problem when one dump location is placed between different collection routes.
+Vehicle route optimization is one of the primary concerns in waste management. It is termed as Vehicle Routing Problem (VRP) ~\cite{dantzig1959}.   While routes may be designed based on geography, merely looking at a map and designing what seems to be practical movement through the city, this is underestimating the extent of the factors involved.  There are multiple factors that either directly or indirectly affect waste collection that can also be analyzed and considered while designing routes. Common known factors that influence vehicle routing are the type of vehicle, vehicle capacity, number of collection stops, volume per capita and the route length. Figure 6 represents Vehicle Routing Problem  ~\cite{wikivrp2017} when one dump location is placed between different collection routes.
 
 \begin{figure}[ht!]
   \includegraphics[width=0.5\textwidth]{vrp.png}
@@ -160,7 +163,7 @@ Identifying these factors creates an opportunity to develop sensors that could c
 
  Manual calculation would be time-consuming and physical observation opens space for inefficiency and delay.  In order to compute these calculations promptly so that the information could contribute to optimization, it would be ideal to develop a computer program to compute the mathematical operations.  This would contribute significantly to optimization of water treatment, for example, in landfill disposal ~\cite{akbarpour2016}
 
-Waste management is already in the process of transforming from using older methodologies to modern Big Data technologies. Big Data has a lot more potential to eradicate most of the problems faced by government in waste disposal. Most of the government organizations are taking a leap to minimize disposal of waste and to achieve "zero disposal" goals. A program in government of District of Columbia called "Zero Waste DC" is being initiated to develop and provide resources that will help its residents move towards zero waste. Its main motive is to divert 80\% of MSW to recycling or source of energy where the remaining 20\% non recoverable waste will be sent to landfills. By collecting vast amounts of data from all sources, they will analyze it to implement cost-effective strategies for converting waste to re-usable resources, improving environmental conditions, taking measures on human health, reducing greenhouse gas emissions and conservation of natural resources. Obtaining data from the sensors on contamination of air with harmful gases, water purification levels from the nearby lakes, physical properties as well as chemical properties of the soil, Big Data will help to analyze this data and provide solutions to prevent them from making situations worst.
+Waste management is already in the process of transforming from using older methodologies to modern Big Data technologies. Big Data has a lot more potential to eradicate most of the problems faced by government in waste disposal. Most of the government organizations are taking a leap to minimize disposal of waste and to achieve "zero disposal" goals~\cite{rosengren2017} . A program in government of District of Columbia called "Zero Waste DC" is being initiated to develop and provide resources that will help its residents move towards zero waste. Its main motive is to divert 80\% of MSW to recycling or source of energy where the remaining 20\% non recoverable waste will be sent to landfills. By collecting vast amounts of data from all sources, they will analyze it to implement cost-effective strategies for converting waste to re-usable resources, improving environmental conditions, taking measures on human health, reducing greenhouse gas emissions and conservation of natural resources. Obtaining data from the sensors on contamination of air with harmful gases, water purification levels from the nearby lakes, physical properties as well as chemical properties of the soil, Big Data will help to analyze this data and provide solutions to prevent them from making situations worst. ~\cite{rosengren2017}.
 
 When its considered Big Data as a volume, huge amounts of data is being collected daily from different sources like digital meters, sensors, social media to avoid waste disposals. It is how this data is being turned into knowledge to apply into real-world problems. Cloud based solutions and using IoT sensors becoming more insight technologies for smart cities and municipal waste management authorities to optimize the waste and their recycle operations. Big Data will help in lowering of contamination on the waste and improve consumption habits of residents in urban areas.
 
@@ -183,7 +186,6 @@ Lingo is a mathematical modeling language designed particularly for formulating 
 
 These resources are valuable to the continual analysis of data being collected, continually helping in waste management optimization.
 
-
 \subsection{GIS Analytics}
 
 When it comes to Geographical Information Systems (From now on GIS), there are multiple software and hardware options in the market. From paid software like ArcGIS to Open and free software like GVSIG, some solutions can help interpret large data sets, apply statistics and algorithms of different kinds and display them in a way that refers to a geographical space. %general knowledge? Should we get a citation for this?
@@ -198,18 +200,14 @@ Waste management has been a growing concern and will continue to be an important
 There are various tools being used to optimize the different waste management practices, and there is space to develop additional tools to continue to the information available to decision makers.
 
 One of the main reasons to use Big data in Municipal Waste Management is to provide local governments with tools that would facilitate the implementation of systems to more efficiently manage how much, where and the growth rate of the material that the community dispossess. Optimizing the waste management systems can help minimize the environmental impact of the community's actions, reduce pollution, increase rates of recycled materials, optimize routes to reduce time and expenses, among others.
-
 By using Big data, local governments can also track the number and quantity or weight of disposals at different locations; this information can be mapped to reveal the locations of the most significant waste generators.  This information will help entities develop specific strategies to reduce waste and help implement permanent solutions for better environments~\cite{markvan2016}. 
-
 Waste Management is not only government issue. Citizens should take the initiative and educate others on how to recycle and reduce waste. With the help of the collected data, governments can notify the different entities (individuals, communities, companies and other organizations) a equip them through education and awareness, and also share valuable information about the importance of waste management through different media, such as mobile phones, email, among others.
-
-Local governments have just started to adopt Big Data technologies for solving problems involved in MSW, but there is plenty of room for growth and further use and development.  By using Big Data Analytics, large amounts of data sets pertaining to specific communities waste, routes, and disposal can be used to identify trends and patterns that could highlight opportunities for improvement. Big Data can play a significant role in managing cities more efficiently, benifiting not only those managing the systems, but the commuties in which they are implemented as well
-
+Local governments have just started to adopt Big Data technologies for solving problems involved in MSW, but there is plenty of room for growth and further use and development.  By using Big Data Analytics, large amounts of data sets pertaining to specific communities waste, routes, and disposal can be used to identify trends and patterns that could highlight opportunities for improvement. Big Data can play a significant role in managing cities more efficiently, benifiting not only those managing the systems, but the commuties in which they are implemented as well.
 \begin{acks}
-The authors would like to thank Dr. Gregor von Laszewski for hissupport and suggestions in writing this paper.
+
+The authors would like to thank Dr. Gregor von Laszewski for his support and suggestions in writing this paper.
 
 \end{acks}
-
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{report} 
 
